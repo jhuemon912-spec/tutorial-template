@@ -1,27 +1,9 @@
+basic.showString("¡Hola!")
 basic.forever(function () {
-    basic.showLeds(`
-        # . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.pause(500)
-    basic.showLeds(`
-        # # . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.pause(500)
-    basic.showLeds(`
-        # # # . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.pause(500)
+    basic.showNumber(1)
+    basic.pause(1000)
+    basic.clearScreen()
+    basic.showNumber(1)
+    basic.pause(1000)
     basic.clearScreen()
 })
